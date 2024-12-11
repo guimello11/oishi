@@ -3,8 +3,12 @@ header {
     padding: 28px 8%;
     position: sticky;
     top: 0;
-    background-color: black;
+    background-color: white;
     z-index: 3;
+    box-shadow: 0px 4px 5px 2px rgba(0,0,0,0.58);
+-webkit-box-shadow: 0px 4px 5px 2px rgba(0,0,0,0.58);
+-moz-box-shadow: 0px 4px 5px 2px rgba(0,0,0,0.58);
+    
 }
 
 .logo{
@@ -23,6 +27,7 @@ header {
     color: white;
     letter-spacing: 4px;
     font-size: 21px;
+    
 }
 
 #nav_logo {
@@ -39,13 +44,13 @@ header {
 
 .nav-item a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: 600;
 }
 
 .nav-item.active a {
-    color: white;
-    border-bottom: 3px solid white;
+    color: black;
+    border-bottom: 3px solid black;
 }
 
 #mobile_btn {
